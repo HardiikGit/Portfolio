@@ -1,14 +1,12 @@
-@media (max-width: 567px) {
+@media (max-width: 993px) {
   .navigation-bar {
     padding: 40px 40px;
     position: fixed;
     top: 0;
     left: -100%;
-    background: var(--fade-gray);
-    width: 100%;
+    background: var(--background-color);
+    width: 50%;
     height: 100vh;
-    flex-direction: column;
-    gap: 0;
     z-index: 9;
     transition: all ease-in-out 0.5s;
   }
@@ -26,7 +24,8 @@
     flex-direction: column;
     gap: 30px;
   }
-  .nav-items {
+  .nav-items,
+  .hire-Button {
     width: 100%;
   }
   .Close-x {
@@ -37,7 +36,9 @@
     border: 1px solid var(--text-color);
     padding: 4px;
   }
-  .Nav-open-btn {
+  .Nav-open-btn,
+  .crose-x-btn,
+  .OverLay-Add {
     display: block;
     text-align: right;
     .Toggle-btn {
@@ -50,7 +51,10 @@
     }
   }
 }
-
-.Open {
-  left: 0;
+@media (max-width: 767px) {
+}
+@media (max-width: 567px) {
+  .navigation-bar {
+    width: 100%;
+  }
 }

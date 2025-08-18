@@ -1,0 +1,46 @@
+.MainBannerSection {
+  padding: 50px 0px;
+}
+.Banner-Content > div {
+  flex: 0 45%;
+}
+.Banner-Image {
+  width: 400px;
+  height: 400px;
+  img {
+    border: 15px solid var(--fade-gray);
+    border-radius: 50%;
+    animation: SpeedSpin infinite alternate 2s;
+  }
+}
+.Banner-Text {
+  color: var(--white-color);
+}
+.MainHeading h1 {
+  font-size: 42px;
+}
+.Banner-Para {
+  margin-bottom: 30px;
+  p {
+    font-size: 14px;
+    color: var(--text-color);
+    line-height: 28px;
+  }
+}
+.Banner-Button {
+  gap: 20px;
+}
+.Downoad-CV,
+.Contact {
+  display: inline-flex;
+  font-size: 14px;
+  background: var(--fade-gray);
+  padding: 12px 30px;
+  border-radius: 50px;
+  border: 2px solid var(--blue-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+.Contact {
+  border: 2px solid var(--white-color);
+}

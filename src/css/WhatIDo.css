@@ -1,0 +1,55 @@
+.MainWhatIDoSection {
+  padding: 50px 0px;
+}
+.What-I-Do-Content {
+  color: var(--white-color);
+}
+.Working-Boxes-fl {
+  gap: 49px;
+}
+.Working-Boxes-fl > div {
+  flex: 0 48%;
+}
+.Sub-Heading {
+  margin-bottom: 40px;
+  h2 {
+    width: fit-content;
+    color: var(--white-color);
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 3px;
+  }
+}
+.Sub-Heading h2::before,
+.Sub-Heading h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #353535;
+  width: 100%;
+  height: 2px;
+}
+.Sub-Heading h2::after {
+  width: 30%;
+  background: var(--blue-color);
+}
+.Info-box {
+  gap: 20px;
+}
+.Box-Image {
+  font-size: 46px;
+  color: var(--blue-color);
+}
+.Box-heading {
+  margin-bottom: 10px;
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+.Box-para p {
+  font-size: 14px;
+  line-height: 25px;
+  color: var(--text-color);
+}

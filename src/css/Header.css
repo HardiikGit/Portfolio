@@ -37,3 +37,7 @@
   font-weight: 500;
   cursor: pointer;
 }
+/* Navigation Open And Close Class */
+.Open {
+  left: 0;
+}

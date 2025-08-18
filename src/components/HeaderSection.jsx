@@ -27,7 +27,7 @@ export default function HeaderSection() {
                               {/* Navigation Menu */}
                               <div className={`navigation-bar ${isOpen ? "Open" : ""}`}>
                                    {/* Close Button */}
-                                   <div className="crose-x-btn d-flex align-items-center justify-content-end">
+                                   <div className="crose-x-btn d-none">
                                         <button className="Close-x" onClick={() => setIsOpen(false)}>
                                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
                                                   <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
@@ -56,7 +56,7 @@ export default function HeaderSection() {
                               </div>
 
                               {/* Open Button */}
-                              <div className="Nav-open-btn">
+                              <div className="Nav-open-btn d-none">
                                    <button className="Toggle-btn" onClick={() => setIsOpen(true)}>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5">
                                              <path fill-rule="evenodd" d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75Zm7 10.5a.75.75 0 0 1 .75-.75h7.5a.75.75 0 0 1 0 1.5h-7.5a.75.75 0 0 1-.75-.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Z" clip-rule="evenodd" />
@@ -65,7 +65,7 @@ export default function HeaderSection() {
                                    </button>
                               </div>
                               {/* Overlay */}
-                              <div className={`OverLay-Add ${isOpen ? "Open" : ""}`}></div>
+                              <div className={`OverLay-Add d-none ${isOpen ? "Open" : ""}`}></div>
                          </div>
                     </div>
                </div>
