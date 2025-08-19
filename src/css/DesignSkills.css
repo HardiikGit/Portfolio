@@ -1,0 +1,47 @@
+.MainSkillSection {
+  padding: 50px 0px;
+}
+.Skill-name {
+  margin-bottom: 5px;
+  h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white-color);
+  }
+  p {
+    font-size: 12px;
+    color: #aaa;
+  }
+}
+.Skill-1,
+.Skill-2,
+.Skill-4,
+.Skill-5 {
+  margin-bottom: 20px;
+}
+.Percenteage-box {
+  padding: 2px;
+  border: 1px solid var(--text-color);
+  border-radius: 50px;
+}
+.skill-Percentage {
+  height: 5px;
+  background: var(--blue-color);
+  border-radius: 50px;
+  width: 75%;
+}
+.Skill-2 .skill-Percentage {
+  width: 90%;
+}
+.Skill-3 .skill-Percentage {
+  width: 70%;
+}
+.Skill-4 .skill-Percentage {
+  width: 90%;
+}
+.Skill-5 .skill-Percentage {
+  width: 75%;
+}
+.Skill-6 .skill-Percentage {
+  width: 65%;
+}

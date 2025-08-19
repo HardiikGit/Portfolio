@@ -1,19 +1,20 @@
 import HeaderSection from "../components/HeaderSection";
-import BannerSection from "../components/BannerSection";
-import WhatIdo from "../components/WhatIDo";
+import ResumeHeading from "../components/ResumeHeading";
+import ResumeContent from "../components/ResumeContentSection";
 import Skills from "../components/DesignSkills";
 import Footer from "../components/FooterLabel";
 import PageRefresh from "../components/Body";
 
-export default function HomePage() {
+
+export default function MyResume() {
      return (
           <>
                <HeaderSection />
-               <BannerSection />
-               <WhatIdo />
+               <ResumeHeading />
+               <ResumeContent />
                <Skills />
                <Footer />
                <PageRefresh />
           </>
-     )
+     );
 }

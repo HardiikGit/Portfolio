@@ -1,0 +1,14 @@
+.FooterSection {
+  padding: 20px 0px;
+  background: #252525;
+  border-color: #333333;
+}
+.social-links {
+  gap: 15px;
+}
+.social-name a,
+.copyright p {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 500;
+}

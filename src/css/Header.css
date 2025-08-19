@@ -27,6 +27,9 @@
   font-size: 12px;
   font-weight: 500;
 }
+.nav-items a:hover {
+  color: var(--text-color);
+}
 .hire-me {
   background: var(--fade-gray);
   border: 1px solid var(--fade-gray);

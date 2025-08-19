@@ -13,11 +13,10 @@
     animation: SpeedSpin infinite alternate 2s;
   }
 }
-.Banner-Text {
-  color: var(--white-color);
-}
+
 .MainHeading h1 {
   font-size: 42px;
+  color: var(--white-color);
 }
 .Banner-Para {
   margin-bottom: 30px;
@@ -40,7 +39,12 @@
   border: 2px solid var(--blue-color);
   color: var(--white-color);
   cursor: pointer;
+  transition: all ease 0.3s;
 }
 .Contact {
   border: 2px solid var(--white-color);
+}
+.Contact:hover,
+.Downoad-CV:hover {
+  background: var(--blue-color);
 }
