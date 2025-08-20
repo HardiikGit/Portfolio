@@ -48,7 +48,7 @@ export default function HeaderSection() {
                                         <Link to='/resume'>Resume</Link>
                                    </li>
                                    <li className="nav-items">
-                                        <Link to=''>Project</Link>
+                                        <Link to='/projects'>Project</Link>
                                    </li>
                                    <li className="nav-items">
                                         <Link to='/contactme'>Contact Me</Link>

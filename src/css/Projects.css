@@ -1,0 +1,55 @@
+.Projects-Parent-Box {
+  gap: 50px;
+}
+.ChatBot-Image::before,
+.SandBox-Image::before,
+.Malika-Image::before {
+  content: "";
+  background: var(--shadow-color);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: all ease-in 0.5s;
+  opacity: 0;
+  z-index: 99;
+}
+.ChatBot-Image:hover::before,
+.SandBox-Image:hover::before,
+.Malika-Image:hover::before {
+  opacity: 1;
+}
+.ChatBot-Ui,
+.SandBox-Ui,
+.Malika-Ui {
+  max-width: 320px;
+  max-height: 180px;
+  overflow: hidden;
+}
+.ChatBot-Ui:hover img,
+.SandBox-Ui:hover img,
+.Malika-Ui:hover img {
+  transition: all ease-in-out 8s;
+}
+.ChatBot-Ui:hover img {
+  transform: translateY(-89.6%);
+}
+.SandBox-Ui:hover img {
+  transform: translateY(-83.1%);
+}
+.Malika-Ui:hover img {
+  transform: translateY(-87.4%);
+}
+.Project-Link {
+  padding: 10px 0px;
+  a {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+    transition: all ease 0.5s;
+  }
+}
+.Project-Link a:hover {
+  color: var(--white-color);
+}

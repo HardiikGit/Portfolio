@@ -101,4 +101,12 @@
   .Text-Area textarea {
     max-width: 445px;
   }
+  .Projects-Parent-Box > div {
+    flex: 100%;
+  }
+  .ChatBot-Ui,
+  .SandBox-Ui,
+  .Malika-Ui {
+    max-width: 100% !important;
+  }
 }
