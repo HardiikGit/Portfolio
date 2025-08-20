@@ -10,10 +10,8 @@
   img {
     border: 15px solid var(--fade-gray);
     border-radius: 50%;
-    animation: SpeedSpin infinite alternate 2s;
   }
 }
-
 .MainHeading h1 {
   font-size: 42px;
   color: var(--white-color);
@@ -29,12 +27,12 @@
 .Banner-Button {
   gap: 20px;
 }
-.Downoad-CV,
+.Download-CV,
 .Contact {
   display: inline-flex;
   font-size: 14px;
   background: var(--fade-gray);
-  padding: 12px 30px;
+  padding: 10px 30px;
   border-radius: 50px;
   border: 2px solid var(--blue-color);
   color: var(--white-color);
@@ -44,7 +42,10 @@
 .Contact {
   border: 2px solid var(--white-color);
 }
-.Contact:hover,
-.Downoad-CV:hover {
+.Download-CV:hover {
   background: var(--blue-color);
+}
+.Contact:hover {
+  background: var(--white-color);
+  color: var(--fade-gray);
 }

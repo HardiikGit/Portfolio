@@ -11,6 +11,7 @@ textarea,
 button,
 a {
   outline: none;
+  font-family: var(--font-poppins);
 }
 ul,
 li,

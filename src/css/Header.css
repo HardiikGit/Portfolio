@@ -17,10 +17,7 @@
   background: var(--blue-color);
 }
 .Logo-name h4 {
-  font-weight: 400;
-}
-.Bold-hd {
-  font-weight: 700;
+  font-weight: 600;
 }
 /* Navigation Bar */
 .nav-items a {

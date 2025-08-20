@@ -5,6 +5,10 @@ import "../css/Header.css";
 export default function HeaderSection() {
      const [isOpen, setIsOpen] = useState(false);
 
+     const HireMe = () => {
+          window.alert("Please Hire Me");
+     }
+
      return (
           <div className="MainHeaderSection">
                <div className="container">
@@ -18,7 +22,7 @@ export default function HeaderSection() {
                                    </div>
                                    <div className="Logo-name">
                                         <h4>
-                                             Alex <span className="Bold-hd">Smith</span>
+                                             Hardik
                                         </h4>
                                    </div>
                               </Link>
@@ -50,7 +54,7 @@ export default function HeaderSection() {
                                         <Link to='/contactme'>Contact Me</Link>
                                    </li>
                                    <li className="hire-Button">
-                                        <button className="hire-me">Hire Me</button>
+                                        <button className="hire-me" onClick={HireMe}>Hire Me</button>
                                    </li>
                               </ul>
                          </div>

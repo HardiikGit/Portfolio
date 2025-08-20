@@ -1,9 +1,22 @@
+import { TypeAnimation } from 'react-type-animation';
 import '../css/Banner.css'
 import '../css/Animation.css'
 import BannerImage from '../images/BannerImage.jpg'
-import { TypeAnimation } from 'react-type-animation';
+
 
 export default function BannerSection() {
+     const DownloadResume = () => {
+          const ConfirmDownload = window.confirm("Do you want Download Resume");
+          if (ConfirmDownload) {
+               const link = document.createElement("a");
+               link.href = 'public/resume.pdf';
+               link.download = "resume.pdf";
+               link.click();
+          }
+          else {
+               return;
+          }
+     }
      return (
           <div className='MainBannerSection'>
                <div className="container">
@@ -23,21 +36,18 @@ export default function BannerSection() {
                               </div>
 
                               <div className='MainHeading'>
-                                   <h1>Alex Smith</h1>
+                                   <h1>Hardik</h1>
                               </div>
 
                               <div className='Banner-Para'>
-                                   <p>
-                                        The great time is mine, not the flexibility heavily raised.
-                                        The convulsions, not condiment growth, hateful bathed feline,
-                                        from the harmless poisonous, out of me. A certain instability,
+                                   <p>The great time is mine, not the flexibility heavily raised. The convulsions, not condiment growth, hateful bathed feline,from the harmless poisonous, out of me. A certain instability,
                                         a place of enjoyable price.
                                    </p>
                               </div>
 
                               <div className='Banner-Button d-flex align-items-center'>
                                    <div>
-                                        <button className='Downoad-CV'>Download CV</button>
+                                        <button className='Download-CV' onClick={DownloadResume}>Download CV</button>
                                    </div>
                                    <div>
                                         <button className='Contact'>Contact</button>
