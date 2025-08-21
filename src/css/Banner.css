@@ -16,7 +16,6 @@
 .MainHeading h1 {
   font-size: 42px;
   color: var(--white-color);
-  animation: fadeIn 6s alternate;
 }
 .Banner-Para {
   margin-bottom: 30px;
