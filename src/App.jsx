@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import { useEffect } from "react"
 import AOS from 'aos'
 import '../node_modules/aos/dist/aos.css'
@@ -15,12 +15,14 @@ function App() {
   }, []);
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="" element={<HomePage />}></Route>
-        <Route path="/resume" element={<MyResume />}></Route>
-        <Route path="/contactme" element={<ContactMe />}></Route>
-        <Route path="/projects" element={<Project />}></Route >
-      </Routes >
+      <Router basename='/portfolio'>
+        <Routes>
+          <Route path="" element={<HomePage />}></Route>
+          <Route path="/resume" element={<MyResume />}></Route>
+          <Route path="/contactme" element={<ContactMe />}></Route>
+          <Route path="/projects" element={<Project />}></Route >
+        </Routes >
+      </Router>
     </BrowserRouter >
   )
 }
