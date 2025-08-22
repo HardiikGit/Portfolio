@@ -30,7 +30,7 @@
 .ChatBot-Ui:hover img,
 .SandBox-Ui:hover img,
 .Malika-Ui:hover img {
-  transition: all ease-in-out 8s;
+  transition: all ease-in 5s;
 }
 .ChatBot-Ui:hover img {
   transform: translateY(-89.6%);

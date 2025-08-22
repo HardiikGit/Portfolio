@@ -5,9 +5,9 @@ import Malika from "../images/Malika.jpeg";
 
 export default function ProjectSection() {
      const links = [
-          { ChatBotUi: "ChatBot-Ui", url: "https://hardiik-git.github.io/Robotech-Ai/Index.html" },
-          { SandBoxUi: "SandBox-Ui", url: "https://hardiik-git.github.io/Sandbox-ui/" },
-          { MalikaUI: "Malika-Ui", url: "https://hardiik-git.github.io/Malika/Malika-home.html" },
+          { ChatBotUi: "ChatBot-Ui", url: "https://hardiikgit.github.io/Robotech-Ai/Index.html" },
+          { SandBoxUi: "SandBox-Ui", url: "https://hardiikgit.github.io/Sandbox-ui/" },
+          { MalikaUI: "Malika-Ui", url: "https://hardiikgit.github.io/Malika/Malika-home.html" },
      ];
 
      const OpenNewTab = (e, url) => {
