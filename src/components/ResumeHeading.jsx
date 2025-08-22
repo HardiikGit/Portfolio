@@ -10,7 +10,7 @@ export default function ResumeHeading() {
      return (
           <div className="MainResumeSection" style={ResumeHeading}>
                <div className="container">
-                    <div className="HeadingBoxResume d-flex justify-space-between">
+                    <div className="HeadingBoxResume d-flex justify-space-between" data-aos="fade-in">
                          <div class="MainHeading">
                               <h1>Resume</h1>
                          </div>

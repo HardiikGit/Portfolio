@@ -1,13 +1,18 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { useEffect } from "react"
+import AOS from 'aos'
+import '../node_modules/aos/dist/aos.css'
 import './css/theme.css'
 import './css/Responsive.css'
-import './css/Animation.css'
-import HomePage from "./pages/HomePage"
-import MyResume from "./pages/ResumePage"
-import ContactMe from "./pages/ContactMePage"
-import Project from "./pages/ProjectsPage"
+import HomePage from './pages/HomePage'
+import MyResume from './pages/ResumePage'
+import ContactMe from './pages/ContactMePage'
+import Project from './pages/ProjectsPage'
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // Takes 3s on Page Reload 
+  }, []);
   return (
     <BrowserRouter>
       <Routes>
@@ -20,4 +25,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

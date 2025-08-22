@@ -24,7 +24,7 @@ export default function ProjectSection() {
           <div className="MainProjectSection" style={{ padding: "50px 0px" }}>
                <div className="container">
                     <div className="Projects-Parent-Box d-flex justify-content-center flexwrap">
-                         <div>
+                         <div data-aos="slide-right">
                               <div className="ChatBot-Ui">
                                    <div className="ChatBot-Image relative">
                                         <img src={ChatBot} className="img-cover" alt="" />
@@ -37,7 +37,7 @@ export default function ProjectSection() {
                                    ))}
                               </div>
                          </div>
-                         <div>
+                         <div data-aos="fade-in" >
                               <div className="SandBox-Ui">
                                    <div className="SandBox-Image relative">
                                         <img src={SandBox} className="img-cover" alt="" />
@@ -51,7 +51,7 @@ export default function ProjectSection() {
                                    ))}
                               </div>
                          </div>
-                         <div>
+                         <div data-aos="slide-left">
                               <div className="Malika-Ui">
                                    <div className="SandBox-Imag relative">
                                         <img src={Malika} className="img-cover" alt="" />

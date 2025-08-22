@@ -10,7 +10,7 @@ export default function ContactFn() {
      return (
           <div className="MainContactSection" style={ContactStyl}>
                <div className="container">
-                    <div className="HeadingBoxContact d-flex justify-space-between align-items-start">
+                    <div className="HeadingBoxContact d-flex justify-space-between align-items-start" data-aos="fade-in">
                          <div class="MainHeading">
                               <h1>Contact Me</h1>
                          </div>

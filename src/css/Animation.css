@@ -1,4 +1,4 @@
-@keyframes ShadowSpin {
+/* @keyframes ShadowSpin {
   0% {
     box-shadow: 0px 0px 0px 0px var(--shadow-color);
   }
@@ -25,5 +25,5 @@
   }
 }
 
-/* animatio-timeline */
-/* animation-range : entry 0% cover */
+animatio-timeline
+animation-range : entry 0% cover */

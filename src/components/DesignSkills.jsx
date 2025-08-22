@@ -7,10 +7,10 @@ export default function Skills() {
                     <div className='Skills-Content'>
                          <div className="row gap40">
                               <div className="col-lg-6 col-sm-12">
-                                   <div className='Sub-Heading'>
+                                   <div className='Sub-Heading' data-aos="slide-right">
                                         <h2 className='relative'>Design Skills</h2>
                                    </div>
-                                   <div className="Skills-Box">
+                                   <div className="Skills-Boxb" data-aos="slide-right">
                                         <div className="Skill-1">
                                              <div className="Skill-name d-flex align-items-center justify-space-between">
                                                   <h3>Ui/Ux Designs</h3>
@@ -41,10 +41,10 @@ export default function Skills() {
                                    </div>
                               </div>
                               <div className="col-lg-6 col-sm-12">
-                                   <div className='Sub-Heading'>
+                                   <div className='Sub-Heading' data-aos="slide-left">
                                         <h2 className='relative'>Coding Skills</h2>
                                    </div>
-                                   <div className="Skills-Box">
+                                   <div className="Skills-Box" data-aos="slide-left">
                                         <div className="Skill-4">
                                              <div className="Skill-name d-flex align-items-center justify-space-between">
                                                   <h3>HTML/CSS/Tailwind</h3>

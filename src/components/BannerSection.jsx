@@ -15,43 +15,20 @@ export default function BannerSection() {
                return;
           }
      };
-
-     const [transform, setTransform] = useState("");
-     const handleMouseMove = (h) => {
-          const { offsetWidth, offsetHeight } = h.target;
-          const { offsetX, offsetY } = h.nativeEvent;
-          const x = offsetX / offsetWidth - 0.5;
-          const y = offsetY / offsetHeight - 0.5;
-          const rotateX = y * 20;
-          const rotateY = x * 20;
-          setTransform(
-               `perspective(600px) rotateX(${-rotateX}deg) rotateY(${rotateY}deg)`
-          );
-     };
-     const handleMouseLeave = () => {
-          setTransform("");
-     };
      const PageChange = () => {
           window.open('/contactme')
      }
      return (
           <div className="MainBannerSection">
                <div className="container">
-                    <div className="Banner-Content d-flex align-items-center justify-content-center flexwrap">
+                    <div className="Banner-Content d-flex align-items-center justify-content-center flexwrap" data-aos="fade-in">
                          <div className="d-flex justify-content-center">
                               <div className="Banner-Image relative">
-                                   <img
-                                        src={BannerImage}
-                                        className="img-cover hover-effect-image"
-                                        alt="mousemove effect"
-                                        style={{ transform }}
-                                        onMouseMove={handleMouseMove}
-                                        onMouseLeave={handleMouseLeave}
-                                   />
+                                   <img src={BannerImage} className="img-cover" data-aos="slide-right" />
                               </div>
                          </div>
 
-                         <div className="Banner-Text">
+                         <div className="Banner-Text" data-aos="slide-left">
                               <div className="TypeAnimation">
                                    <TypeAnimation sequence={["Web Designer", 2000, "Web Developer", 2000, "Ui Ux Designer", 2000,]}
                                         wrapper="span" speed={300} style={{

@@ -10,7 +10,7 @@ export default function ContactContent() {
           <div className="MainContactSection" style={mainBox}>
                <div className="container">
                     <div className="ContactMeSection-fl d-flex justify-space-between flexwrap">
-                         <div className="Adress-fl d-flex flexcolumn">
+                         <div className="Adress-fl d-flex flexcolumn" data-aos="slide-right">
                               <div className='Contact-Box d-flex'>
                                    <div className='ContactLogo'>
                                         <img src={image2} className='img-contain' alt="Mobile-Image" />
@@ -52,10 +52,10 @@ export default function ContactContent() {
                               </div>
                          </div>
                          <div className='Contact-Input-Area'>
-                              <div class="Sub-Heading">
+                              <div class="Sub-Heading" data-aos="slide-left">
                                    <h2 class="relative">Contact Me</h2>
                               </div>
-                              <div className="Input-Contact-Area d-flex flexcolumn">
+                              <div className="Input-Contact-Area d-flex flexcolumn" data-aos="slide-left">
                                    <div className='Input-Box'>
                                         <input type="text" placeholder='Full Name' />
                                    </div>

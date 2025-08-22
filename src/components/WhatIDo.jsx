@@ -10,16 +10,16 @@ export default function WhatIdo() {
           <div className="MainWhatIDoSection">
                <div className='container'>
                     <div className='What-I-Do-Content'>
-                         <div className='Sub-Heading'>
+                         <div className='Sub-Heading' data-aos="slide-right">
                               <h2 className='relative'>What I Do</h2>
                          </div>
                          <div className='Working-Boxes-fl d-flex align-items-center justify-content-start flexwrap'>
                               {/* 1 */}
-                              <div className="Info-box d-flex justify-content-start">
-                                   <div className='Box-Image'>
+                              <div className="Info-box d-flex justify-content-start" data-aos="slide-right">
+                                   <div className='Box-Image' data-aos="fade-in">
                                         <img src={WebDesign} className="img-contain" style={{ width: '90px', height: '60px' }} />
                                    </div>
-                                   <div>
+                                   <div data-aos="fade-in">
                                         <div className='Box-heading'>
                                              <h3>Web Design</h3>
                                         </div>
@@ -30,11 +30,11 @@ export default function WhatIdo() {
                                    </div>
                               </div>
                               {/* 2 */}
-                              <div className="Info-box d-flex justify-content-start">
+                              <div className="Info-box d-flex justify-content-start" data-aos="slide-left">
                                    <div className='Box-Image'>
                                         <img src={WebDev} className="img-contain" style={{ width: '90px', height: '60px' }} />
                                    </div>
-                                   <div>
+                                   <div data-aos="fade-in">
                                         <div className='Box-heading'>
                                              <h3>Web Development</h3>
                                         </div>
@@ -45,11 +45,11 @@ export default function WhatIdo() {
                                    </div>
                               </div>
                               {/* 3 */}
-                              <div className="Info-box d-flex justify-content-start">
+                              <div className="Info-box d-flex justify-content-start" data-aos="slide-right">
                                    <div className='Box-Image'>
                                         <img src={UiUx} className="img-contain" style={{ width: '90px', height: '50px' }} />
                                    </div>
-                                   <div>
+                                   <div data-aos="fade-in">
                                         <div className='Box-heading'>
                                              <h3>UI/UX Design</h3>
                                         </div>
