@@ -1,7 +1,7 @@
-import { useState } from "react";
-import { TypeAnimation } from "react-type-animation";
-import "../css/Banner.css";
-import BannerImage from "../images/BannerImage.png";
+import { TypeAnimation } from "react-type-animation"
+import "../css/Banner.css"
+import '../css/Animation.css'
+import BannerImage from "../images/MyImage.png"
 
 export default function BannerSection() {
      const DownloadResume = () => {

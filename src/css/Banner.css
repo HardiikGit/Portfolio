@@ -10,7 +10,7 @@
   img {
     border: 15px solid var(--fade-gray);
     border-radius: 50%;
-    animation: ShadowSpin 3s infinite alternate;
+    animation: Spin 3s infinite alternate !important;
   }
 }
 .MainHeading h1 {
