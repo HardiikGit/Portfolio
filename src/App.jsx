@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { HashRouter, Route, Routes } from "react-router-dom"
 import { useEffect } from "react"
 import AOS from 'aos'
 import '../node_modules/aos/dist/aos.css'
@@ -14,14 +14,14 @@ function App() {
     AOS.init({ duration: 1000 }); // Takes 3s on Page Reload 
   }, []);
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="" element={<HomePage />}></Route>
         <Route path="/resume" element={<MyResume />}></Route>
         <Route path="/contactme" element={<ContactMe />}></Route>
         <Route path="/projects" element={<Project />}></Route >
       </Routes >
-    </BrowserRouter >
+    </HashRouter>
   )
 }
 
