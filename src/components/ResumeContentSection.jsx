@@ -6,11 +6,11 @@ export default function ResumeContent() {
                <div className='container'>
                     <div className='row gap40'>
                          <div className="col-lg-6 col-sm-12">
-                              <div class="Sub-Heading" data-aos="slide-right">
+                              <div class="Sub-Heading" data-aos="fade-in">
                                    <h2 className="relative">Education</h2>
                               </div>
                               <div className='EducationSection'>
-                                   <div className='Wrapper-Box relative' data-aos="slide-right">
+                                   <div className='Wrapper-Box relative' data-aos="fade-in">
                                         <div className='relative d-flex align-items-center' style={{ gap: '10px', marginLeft: '-30px', }}>
                                              <div className='year'>
                                                   <p>2023</p>
@@ -26,7 +26,7 @@ export default function ResumeContent() {
                                              <p>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum.</p>
                                         </div>
                                    </div>
-                                   <div className='Wrapper-Box relative' data-aos="slide-right">
+                                   <div className='Wrapper-Box relative' data-aos="fade-in">
                                         <div className='relative d-flex align-items-center' style={{ gap: '10px', marginLeft: '-30px', }}>
                                              <div className='year'>
                                                   <p>2021</p>
@@ -42,7 +42,7 @@ export default function ResumeContent() {
                                              <p>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum.</p>
                                         </div>
                                    </div>
-                                   <div className='Wrapper-Box relative' data-aos="slide-right">
+                                   <div className='Wrapper-Box relative' data-aos="fade-in">
                                         <div className='relative d-flex align-items-center' style={{ gap: '10px', marginLeft: '-30px', }}>
                                              <div className='year'>
                                                   <p>2019</p>
@@ -61,11 +61,11 @@ export default function ResumeContent() {
                               </div>
                          </div>
                          <div className="col-lg-6 col-sm-12">
-                              <div class="Sub-Heading" data-aos="slide-left">
+                              <div class="Sub-Heading" data-aos="fade-in">
                                    <h2 className="relative">Experience</h2>
                               </div>
                               <div className='ExperienceSection'>
-                                   <div className='Wrapper-Box relative' data-aos="slide-left">
+                                   <div className='Wrapper-Box relative' data-aos="fade-in">
                                         <div className='relative d-flex align-items-center' style={{ gap: '10px', marginLeft: '-30px', }}>
                                              <div className='year'>
                                                   <p>2025 - Current</p>
@@ -81,7 +81,7 @@ export default function ResumeContent() {
                                              <p>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum.</p>
                                         </div>
                                    </div>
-                                   <div className='Wrapper-Box relative' data-aos="slide-left">
+                                   <div className='Wrapper-Box relative' data-aos="fade-in">
                                         <div className='relative d-flex align-items-center' style={{ gap: '10px', marginLeft: '-30px', }}>
                                              <div className='year'>
                                                   <p>Aug - Dec 23</p>

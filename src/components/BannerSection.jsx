@@ -24,11 +24,11 @@ export default function BannerSection() {
                     <div className="Banner-Content d-flex align-items-center justify-content-center flexwrap" data-aos="fade-in">
                          <div className="d-flex justify-content-center">
                               <div className="Banner-Image relative">
-                                   <img src={BannerImage} className="img-cover" data-aos="slide-right" />
+                                   <img src={BannerImage} className="img-cover" data-aos="fade-in" />
                               </div>
                          </div>
 
-                         <div className="Banner-Text" data-aos="slide-left">
+                         <div className="Banner-Text" data-aos="fade-in">
                               <div className="TypeAnimation">
                                    <TypeAnimation sequence={["Web Designer", 2000, "Web Developer", 2000, "Ui Ux Designer", 2000,]}
                                         wrapper="span" speed={300} style={{
