@@ -8,7 +8,7 @@ export default function BannerSection() {
           const ConfirmDownload = window.confirm("Do you want Download Resume");
           if (ConfirmDownload) {
                const link = document.createElement("a");
-               link.href = "/resume.pdf";
+               link.href = process.env.PUBLIC_URL + "/resume.pdf";
                link.download = "resume.pdf";
                document.body.appendChild(link);
                link.click();
