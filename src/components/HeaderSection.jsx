@@ -13,10 +13,7 @@ export default function HeaderSection() {
      const HireMe = () => {
           const Confirm = window.confirm("Are You Hire Me...?")
           if (Confirm) {
-               window.open('/resume');
-          }
-          else {
-               window.close('');
+               window.open('#/resume')
           }
      };
 

@@ -7,12 +7,12 @@ export default function BannerSection() {
      const DownloadResume = () => {
           const ConfirmDownload = window.confirm("Do you want Download Resume");
           if (ConfirmDownload) {
-               const link = document.createElement("e");
-               link.href = "/public/resume.pdf";
+               const link = document.createElement("a");
+               link.href = "/resume.pdf";
                link.download = "resume.pdf";
+               document.body.appendChild(link);
                link.click();
-          } else {
-               return;
+               document.body.removeChild(link);
           }
      };
      const PageChange = () => {
