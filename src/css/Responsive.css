@@ -22,7 +22,7 @@
   }
   .nav-items-fl {
     flex-direction: column;
-    gap: 30px;
+    gap: 30px !important;
   }
   .nav-items,
   .hire-Button {

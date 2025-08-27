@@ -8,15 +8,13 @@ export default function BannerSection() {
           const ConfirmDownload = window.confirm("Do you want Download Resume");
           if (ConfirmDownload) {
                const link = document.createElement("a");
-               link.href ="public/resume.pdf";
-               link.download = "resume.pdf";
-               document.body.appendChild(link);
+               link.href = "public/resume.pdf";
+               link.download = "Hardiik-CV.pdf";
                link.click();
-               document.body.removeChild(link);
           }
      };
      const PageChange = () => {
-          window.open('/contactme')
+          window.open('#/contactme')
      }
      return (
           <div className="MainBannerSection">

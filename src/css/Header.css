@@ -4,6 +4,9 @@
 .navigation-fl > div {
   flex: 0 50%;
 }
+.nav-items-fl {
+  gap: 90px;
+}
 .header-logo a,
 .nav-items a {
   gap: 10px;
@@ -26,16 +29,6 @@
 }
 .nav-items a:hover {
   color: var(--text-color);
-}
-.hire-me {
-  background: var(--fade-gray);
-  border: 1px solid var(--fade-gray);
-  color: var(--white-color);
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
 }
 /* Navigation Open And Close Class */
 .Open {

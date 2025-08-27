@@ -48,10 +48,7 @@ export default function HeaderSection() {
                                    </button>
                               </div>
 
-                              <ul className="nav-items-fl d-flex justify-space-between align-items-center">
-                                   <li className="nav-items">
-                                        <Link data-aos="fade-in" to='/'>About Me</Link>
-                                   </li>
+                              <ul className="nav-items-fl d-flex justify-content-end align-items-center">
                                    <li className="nav-items">
                                         <Link data-aos="fade-in" to='/resume'>Resume</Link>
                                    </li>
@@ -60,9 +57,6 @@ export default function HeaderSection() {
                                    </li>
                                    <li className="nav-items">
                                         <Link data-aos="fade-in" to='/contactme'>Contact Me</Link>
-                                   </li>
-                                   <li className="hire-Button">
-                                        <button data-aos="fade-in" className="hire-me" onClick={HireMe}>Hire Me</button>
                                    </li>
                               </ul>
                          </div>
