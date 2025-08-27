@@ -4,6 +4,7 @@ import ResumeContent from "../components/ResumeContentSection";
 import Skills from "../components/DesignSkills";
 import Footer from "../components/FooterLabel";
 import PageRefresh from "../components/Body";
+import CursorMove from "../components/MouseMove";
 
 
 export default function MyResume() {
@@ -15,6 +16,7 @@ export default function MyResume() {
                <Skills />
                <Footer />
                <PageRefresh />
+               <CursorMove />
           </>
      );
 }

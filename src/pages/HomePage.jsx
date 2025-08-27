@@ -4,6 +4,7 @@ import WhatIdo from "../components/WhatIDo";
 import Skills from "../components/DesignSkills";
 import Footer from "../components/FooterLabel";
 import PageRefresh from "../components/Body";
+import CursorMove from "../components/MouseMove";
 
 export default function HomePage() {
      return (
@@ -14,6 +15,7 @@ export default function HomePage() {
                <Skills />
                <Footer />
                <PageRefresh />
+               <CursorMove />
           </>
      )
 }

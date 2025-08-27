@@ -1,0 +1,11 @@
+.cursor-move::after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background-color: none;
+  border: 1px solid var(--white-color);
+  border-radius: 50%;
+  top: -14px;
+  left: -13px;
+}
