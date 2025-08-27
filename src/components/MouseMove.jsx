@@ -38,7 +38,7 @@ export default function CursorMove() {
      return (
           <div ref={cursorRef} className="cursor-move" style={{
                position: "fixed", zIndex: "9999", width: "7px", height: "7px",
-               borderRadius: "50%", backgroundColor: "var(--white-color)", pointerEvents: "none", top: "50%", left: "50%",
+               borderRadius: "50%", backgroundColor: "#ffffff90", pointerEvents: "none", top: "50%", left: "50%",
           }} ></div>
      );
 }
