@@ -3,19 +3,8 @@ import { Link } from "react-router-dom";
 import "../css/Header.css";
 
 export default function HeaderSection() {
-     // Navigation Bar Button
-     // isOpen is a State
-     // steIsOpen is a Function
-     // useState is 
+     // Navigation Bar Button     // isOpen is a State     // steIsOpen is a Function     // useState is 
      const [isOpen, setIsOpen] = useState(false);
-
-     // Hire Button
-     const HireMe = () => {
-          const Confirm = window.confirm("Are You Hire Me...?")
-          if (Confirm) {
-               window.open('#/resume')
-          }
-     };
 
      return (
           <div className="MainHeaderSection">
