@@ -38,7 +38,6 @@ export default function ProjectSection() {
                                         </div>
                                    </div>
                               </div>
-
                          </div>
                          <div data-aos="fade-in" >
                               <div className="SandBox-Ui relative">
@@ -54,7 +53,6 @@ export default function ProjectSection() {
                                         </div>
                                    </div>
                               </div>
-
                          </div>
                          <div data-aos="fade-in">
                               <div className="Malika-Ui relative">
@@ -70,7 +68,6 @@ export default function ProjectSection() {
                                         </div>
                                    </div>
                               </div>
-
                          </div>
                     </div>
                </div>
