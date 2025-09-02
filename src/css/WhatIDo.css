@@ -10,7 +10,8 @@
 .Working-Boxes-fl > div {
   flex: 0 48%;
   padding: 20px;
-  transition: all ease-in-out 0.2s;
+  transition: all ease-in 0.2s !important;
+  border-radius: 10px;
 }
 .Working-Boxes-fl > div:hover {
   scale: 1.01;
