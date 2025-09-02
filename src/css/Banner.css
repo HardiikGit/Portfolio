@@ -28,8 +28,7 @@
 .Banner-Button {
   gap: 20px;
 }
-.Download-CV,
-.Contact {
+.Download-CV {
   display: inline-flex;
   font-size: 14px;
   background: var(--fade-gray);
@@ -40,13 +39,6 @@
   cursor: pointer;
   transition: all ease 0.3s;
 }
-.Contact {
-  border: 2px solid var(--white-color);
-}
 .Download-CV:hover {
   background: var(--blue-color);
-}
-.Contact:hover {
-  background: var(--white-color);
-  color: var(--fade-gray);
 }

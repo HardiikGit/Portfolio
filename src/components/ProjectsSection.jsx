@@ -25,43 +25,52 @@ export default function ProjectSection() {
                <div className="container">
                     <div className="Projects-Parent-Box d-flex justify-content-center flexwrap">
                          <div data-aos="fade-in">
-                              <div className="ChatBot-Ui">
-                                   <div className="ChatBot-Image relative">
+                              <div className="ChatBot-Ui relative">
+                                   <div className="ChatBot-Image">
                                         <img src={ChatBot} className="img-cover" alt="" />
+                                        <div className="ChatBot-Content absolute text-center">
+                                             <div className="Project-Link text-center">
+                                                  {links.map((link, index) => (<div key={index}>
+                                                       <a href={link.url} onClick={(e) => OpenNewTab(e, link.url)}>{link.ChatBotUi}</a>
+                                                  </div>
+                                                  ))}
+                                             </div>
+                                        </div>
                                    </div>
                               </div>
-                              <div className="Project-Link text-center">
-                                   {links.map((link, index) => (<div key={index}>
-                                        <a href={link.url} onClick={(e) => OpenNewTab(e, link.url)}>{link.ChatBotUi}</a>
-                                   </div>
-                                   ))}
-                              </div>
+
                          </div>
                          <div data-aos="fade-in" >
-                              <div className="SandBox-Ui">
-                                   <div className="SandBox-Image relative">
+                              <div className="SandBox-Ui relative">
+                                   <div className="SandBox-Image">
                                         <img src={SandBox} className="img-cover" alt="" />
+                                        <div className="ChatBot-Content absolute text-center">
+                                             <div className="Project-Link text-center">
+                                                  {links.map((link, index) => (<div key={index}>
+                                                       <a href={link.url} onClick={(e) => OpenNewTab(e, link.url)}>{link.SandBoxUi}</a>
+                                                  </div>
+                                                  ))}
+                                             </div>
+                                        </div>
                                    </div>
                               </div>
-                              <div className="Project-Link text-center">
-                                   {links.map((link, index) => (
-                                        <div key={index}>
-                                             <a href={link.url} onClick={(e) => OpenNewTab(e, link.url)}>{link.SandBoxUi}</a>
-                                        </div>
-                                   ))}
-                              </div>
+
                          </div>
                          <div data-aos="fade-in">
-                              <div className="Malika-Ui">
-                                   <div className="SandBox-Imag relative">
+                              <div className="Malika-Ui relative">
+                                   <div className="SandBox-Imag">
                                         <img src={Malika} className="img-cover" alt="" />
+                                        <div className="ChatBot-Content absolute text-center">
+                                             <div className="Project-Link text-center">
+                                                  {links.map((link, index) => (<div key={index}>
+                                                       <a href={link.url} onClick={(e) => OpenNewTab(e, link.url)}>{link.MalikaUI}</a>
+                                                  </div>
+                                                  ))}
+                                             </div>
+                                        </div>
                                    </div>
                               </div>
-                              <div className="Project-Link text-center">
-                                   {links.map((link, index) => (<div key={index}><a href={link.url} onClick={(e) => OpenNewTab(e, link.url)}>{link.MalikaUI}</a>
-                                   </div>
-                                   ))}
-                              </div>
+
                          </div>
                     </div>
                </div>

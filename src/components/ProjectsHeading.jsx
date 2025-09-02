@@ -10,7 +10,7 @@ export default function ProjectHeading() {
      return (
           <div className="MainProjectSection" style={ProjectStyl}>
                <div className="container">
-                    <div class="MainHeading" data-aos="fade-in">
+                    <div className="MainHeading" data-aos="fade-in">
                          <h1>Projects</h1>
                     </div>
                </div>
