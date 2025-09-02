@@ -12,9 +12,6 @@ export default function BannerSection() {
                link.click();
           }
      };
-     const PageChange = () => {
-          window.open('#/contactme')
-     }
      return (
           <div className="MainBannerSection">
                <div className="container">
@@ -52,9 +49,6 @@ export default function BannerSection() {
                                         <button className="Download-CV" onClick={DownloadResume}>
                                              Download CV
                                         </button>
-                                   </div>
-                                   <div>
-                                        <button className="Contact" onClick={PageChange}>Contact</button>
                                    </div>
                               </div>
                          </div>
