@@ -11,7 +11,7 @@ import Project from './pages/ProjectsPage'
 
 function App() {
   useEffect(() => {
-    AOS.init({ duration: 1000 }); // Takes 3s on Page Reload 
+    AOS.init({ duration: 2000 }); // Takes 2s on Page Reload 
   }, []);
   return (
     <HashRouter>

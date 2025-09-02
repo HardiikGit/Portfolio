@@ -8,7 +8,7 @@ export default function BannerSection() {
           if (ConfirmDownload) {
                const link = document.createElement("a");
                link.href = "public/resume.pdf";
-               link.download = "Hardiik-CV.pdf";
+               link.download = "resume.pdf";
                link.click();
           }
      };
