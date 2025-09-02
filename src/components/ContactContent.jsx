@@ -66,7 +66,7 @@ export default function ContactContent() {
                                         <input type="text" placeholder='Subject' />
                                    </div>
                                    <div className='Text-Area'>
-                                        <textarea name="" id="" placeholder='Messag'></textarea>
+                                        <textarea name="" id="" placeholder='Message'></textarea>
                                    </div>
                                    <div className='Contact-btn'>
                                         <button className='Submit-Button Download-CV'>
