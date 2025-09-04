@@ -1,8 +1,6 @@
 function CursorMove() {
      return (
-          <div className="CursorBody">
-
-          </div>
+          <div className="CursorBody"></div>
      );
 }
 

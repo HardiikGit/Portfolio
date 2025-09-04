@@ -1,5 +1,4 @@
 import '../css/ContactContent.css'
-
 import image1 from '../images/Location.png'
 import image2 from '../images/Phone.png'
 import image3 from '../images/Mail.png'
