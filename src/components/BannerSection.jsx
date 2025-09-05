@@ -40,10 +40,9 @@ export default function BannerSection() {
                                         The great time is mine, not the flexibility heavily raised. The
                                         convulsions, not condiment growth, hateful bathed feline,from
                                         the harmless poisonous, out of me. A certain instability, a
-                                        place of enjoyable price.
+                                        place of enjoyable.
                                    </p>
                               </div>
-
                               <div className="Banner-Button d-flex align-items-center">
                                    <div>
                                         <button className="Download-CV" onClick={DownloadResume}>
