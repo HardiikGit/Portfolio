@@ -33,3 +33,12 @@ ol {
   --shadow-color: #00000052;
   --f96-color: #969696;
 }
+
+.light {
+  background-color: var(--white-color);
+  color: #000;
+}
+.dark {
+  background-color: var(--background-color);
+  color: var(--white-color);
+}
