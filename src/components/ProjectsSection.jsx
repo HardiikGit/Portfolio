@@ -2,12 +2,14 @@ import "../css/Projects.css";
 import ChatBot from "../images/ChatBot.jpeg";
 import SandBox from "../images/SandBox.jpeg";
 import Malika from "../images/Malika.jpeg";
+import Infusing from '../images/InFusing.jpeg'
 
 export default function ProjectSection() {
      const links = [
           { ChatBotUi: "ChatBot-Ui", url: "https://hardiikgit.github.io/Robotech-Ai/Index.html" },
           { SandBoxUi: "SandBox-Ui", url: "https://hardiikgit.github.io/Sandbox-ui/" },
-          { MalikaUI: "Malika-Ui", url: "https://hardiikgit.github.io/Malika/Malika-home.html" },
+          { MalikaUi: "Malika-Ui", url: "https://hardiikgit.github.io/Malika/Malika-home.html" },
+          { InfusingUi: "Infusing-Ui", url: "https://hardiikgit.github.io/InFusing/Home-Page.html" },
      ];
 
      const OpenNewTab = (e, url) => {
@@ -43,7 +45,7 @@ export default function ProjectSection() {
                               <div className="SandBox-Ui relative">
                                    <div className="SandBox-Image">
                                         <img src={SandBox} className="img-cover" alt="" />
-                                        <div className="ChatBot-Content absolute text-center">
+                                        <div className="Sandbox-Content absolute text-center">
                                              <div className="Project-Link text-center">
                                                   {links.map((link, index) => (<div key={index}>
                                                        <a href={link.url} onClick={(e) => OpenNewTab(e, link.url)}>{link.SandBoxUi}</a>
@@ -56,12 +58,27 @@ export default function ProjectSection() {
                          </div>
                          <div data-aos="fade-in">
                               <div className="Malika-Ui relative">
-                                   <div className="SandBox-Imag">
+                                   <div className="Malika-Imag">
                                         <img src={Malika} className="img-cover" alt="" />
-                                        <div className="ChatBot-Content absolute text-center">
+                                        <div className="Malika-Content absolute text-center">
                                              <div className="Project-Link text-center">
                                                   {links.map((link, index) => (<div key={index}>
-                                                       <a href={link.url} onClick={(e) => OpenNewTab(e, link.url)}>{link.MalikaUI}</a>
+                                                       <a href={link.url} onClick={(e) => OpenNewTab(e, link.url)}>{link.MalikaUi}</a>
+                                                  </div>
+                                                  ))}
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div data-aos="fade-in">
+                              <div className="Infusing-Ui relative">
+                                   <div className="Infusing-Imag">
+                                        <img src={Infusing} className="img-cover" alt="" />
+                                        <div className="Infusing-Content absolute text-center">
+                                             <div className="Project-Link text-center">
+                                                  {links.map((link, index) => (<div key={index}>
+                                                       <a href={link.url} onClick={(e) => OpenNewTab(e, link.url)}>{link.InfusingUi}</a>
                                                   </div>
                                                   ))}
                                              </div>

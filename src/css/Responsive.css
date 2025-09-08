@@ -106,7 +106,8 @@
   }
   .ChatBot-Ui,
   .SandBox-Ui,
-  .Malika-Ui {
+  .Malika-Ui,
+  .Infusing-Ui {
     max-width: 100% !important;
   }
 }

@@ -3,7 +3,8 @@
 }
 .ChatBot-Ui,
 .SandBox-Ui,
-.Malika-Ui {
+.Malika-Ui,
+.Infusing-Ui {
   max-width: 320px;
   max-height: 300px;
   overflow: hidden;
@@ -23,7 +24,10 @@
   border: 1px solid var(--white-color);
   padding: 5px 10px;
 }
-.ChatBot-Content {
+.ChatBot-Content,
+.Sandbox-Content,
+.Malika-Content,
+.Infusing-Content {
   width: 100%;
   bottom: 0;
   background: linear-gradient(#1e1e1e85, #000000);
@@ -32,8 +36,9 @@
   padding: 0px 40px;
 }
 .ChatBot-Ui:hover .ChatBot-Content,
-.SandBox-Ui:hover .ChatBot-Content,
-.Malika-Ui:hover .ChatBot-Content {
+.SandBox-Ui:hover .Sandbox-Content,
+.Malika-Ui:hover .Malika-Content,
+.Infusing-Ui:hover .Infusing-Content {
   height: 100%;
   padding: 100px 40px;
 }
