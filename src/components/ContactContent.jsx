@@ -18,9 +18,6 @@ export default function ContactContent() {
                                         <div className='contact-h3'>
                                              <h3>+91 82954-48963</h3>
                                         </div>
-                                        {/* <div className='contact-styl-p'>
-                                             <p>Duis erat leo, aliquam laoreet fringilla quis, pretium vitae dui.</p>
-                                        </div> */}
                                    </div>
                               </div>
                               <div className='Contact-Box d-flex'>
@@ -31,9 +28,6 @@ export default function ContactContent() {
                                         <div className='contact-h3'>
                                              <h3>Ambala</h3>
                                         </div>
-                                        {/* <div className='contact-styl-p'>
-                                             <p>Duis erat leo, aliquam laoreet fringilla quis, pretium vitae dui.</p>
-                                        </div> */}
                                    </div>
                               </div>
                               <div className='Contact-Box d-flex'>
@@ -44,9 +38,6 @@ export default function ContactContent() {
                                         <div className='contact-h3'>
                                              <h3>hardiik003@gmail.com</h3>
                                         </div>
-                                        {/* <div className='contact-styl-p'>
-                                             <p>Duis erat leo, aliquam laoreet fringilla quis, pretium vitae dui.</p>
-                                        </div> */}
                                    </div>
                               </div>
                          </div>
