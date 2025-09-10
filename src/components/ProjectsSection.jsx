@@ -3,6 +3,7 @@ import ChatBot from "../images/ChatBot.jpeg";
 import SandBox from "../images/SandBox.jpeg";
 import Malika from "../images/Malika.jpeg";
 import Infusing from '../images/InFusing.jpeg'
+import OneClick from '../images/OneClick.png'
 
 export default function ProjectSection() {
      const links = [
@@ -10,6 +11,8 @@ export default function ProjectSection() {
           { SandBoxUi: "SandBox-Ui", url: "https://hardiikgit.github.io/Sandbox-ui/" },
           { MalikaUi: "Malika-Ui", url: "https://hardiikgit.github.io/Malika/Malika-home.html" },
           { InfusingUi: "Infusing-Ui", url: "https://hardiikgit.github.io/InFusing/Home-Page.html" },
+          { OneClickFigmaUi: "One-Click-Ui-Figma", url: "https://www.figma.com/community/file/1547489905447259929/one-click-poltics" }
+
      ];
 
      const OpenNewTab = (e, url) => {
@@ -79,6 +82,21 @@ export default function ProjectSection() {
                                              <div className="Project-Link text-center">
                                                   {links.map((link, index) => (<div key={index}>
                                                        <a href={link.url} onClick={(e) => OpenNewTab(e, link.url)}>{link.InfusingUi}</a>
+                                                  </div>
+                                                  ))}
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                         <div data-aos="fade-in">
+                              <div className="One-Click-Ui-Figma relative">
+                                   <div className="One-Click-Imag">
+                                        <img src={OneClick} className="img-cover" alt="" />
+                                        <div className="One-Click-Ui-Figma-Content absolute text-center">
+                                             <div className="Project-Link text-center">
+                                                  {links.map((link, index) => (<div key={index}>
+                                                       <a href={link.url} onClick={(e) => OpenNewTab(e, link.url)}>{link.OneClickFigmaUi}</a>
                                                   </div>
                                                   ))}
                                              </div>

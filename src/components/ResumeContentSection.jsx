@@ -13,7 +13,23 @@ export default function ResumeContent() {
                                    <div className='Wrapper-Box relative' data-aos="fade-in">
                                         <div className='relative d-flex align-items-center' style={{ gap: '10px', marginLeft: '-30px', }}>
                                              <div className='year'>
-                                                  <p>2023</p>
+                                                  <p>Current - 2027</p>
+                                             </div>
+                                             <div className='Education'>
+                                                  <p>BCA From Chandigarh University</p>
+                                             </div>
+                                        </div>
+                                        <div className='Education-field Skill-name'>
+                                             <h3>Bachelor of Computer Applications</h3>
+                                        </div>
+                                        <div className="Education-Para Banner-Para">
+                                             <p>Bachelor of Computer Applications (BCA): Built strong knowledge in programming, databases, operating systems, and web development.</p>
+                                        </div>
+                                   </div>
+                                   <div className='Wrapper-Box relative' data-aos="fade-in">
+                                        <div className='relative d-flex align-items-center' style={{ gap: '10px', marginLeft: '-30px', }}>
+                                             <div className='year'>
+                                                  <p>2021 - 2023</p>
                                              </div>
                                              <div className='Education'>
                                                   <p>Diploma in Computer Engineering</p>
@@ -23,39 +39,39 @@ export default function ResumeContent() {
                                              <h3>Computer Application</h3>
                                         </div>
                                         <div className="Education-Para Banner-Para">
-                                             <p>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum.</p>
+                                             <p>Gained strong foundation in computer hardware, software, programming, and networking concepts. Developed skills in C/C++ programming, database management, operating systems, and web technologies.</p>
                                         </div>
                                    </div>
                                    <div className='Wrapper-Box relative' data-aos="fade-in">
                                         <div className='relative d-flex align-items-center' style={{ gap: '10px', marginLeft: '-30px', }}>
                                              <div className='year'>
-                                                  <p>2021</p>
+                                                  <p>2020 - 2021</p>
                                              </div>
                                              <div className='Education'>
                                                   <p>12th with Science</p>
                                              </div>
                                         </div>
                                         <div className='Education-field Skill-name'>
-                                             <h3>Sceice (Non Medical)</h3>
+                                             <h3>Science (Non Medical)</h3>
                                         </div>
                                         <div className="Education-Para Banner-Para">
-                                             <p>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum.</p>
+                                             <p>Specialized in Physics, Chemistry, and Mathematics.</p>
                                         </div>
                                    </div>
                                    <div className='Wrapper-Box relative' data-aos="fade-in">
                                         <div className='relative d-flex align-items-center' style={{ gap: '10px', marginLeft: '-30px', }}>
                                              <div className='year'>
-                                                  <p>2019</p>
+                                                  <p>2018 - 2019</p>
                                              </div>
                                              <div className='Education'>
-                                                  <p>10th with Regular</p>
+                                                  <p>10th</p>
                                              </div>
                                         </div>
                                         <div className='Education-field Skill-name'>
-                                             <h3>Normal</h3>
+                                             <h3>General Education</h3>
                                         </div>
                                         <div className="Education-Para Banner-Para">
-                                             <p>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum.</p>
+                                             <p>Completed with focus on core subjects – Mathematics, Science, Social Studies, and Languages.</p>
                                         </div>
                                    </div>
                               </div>
@@ -78,13 +94,13 @@ export default function ResumeContent() {
                                              <h3>Web Developer</h3>
                                         </div>
                                         <div className="Education-Para Banner-Para">
-                                             <p>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum.</p>
+                                             <p>Worked on front-end and back-end development using HTML, CSS, JavaScript, and React. Built responsive websites with modern UI/UX using Tailwind CSS and Bootstrap. Collaborated on projects, debugging, and performance optimization.</p>
                                         </div>
                                    </div>
                                    <div className='Wrapper-Box relative' data-aos="fade-in">
                                         <div className='relative d-flex align-items-center' style={{ gap: '10px', marginLeft: '-30px', }}>
                                              <div className='year'>
-                                                  <p>Aug - Dec 23</p>
+                                                  <p>Aug 2023 - Dec 2023</p>
                                              </div>
                                              <div className='Education'>
                                                   <p>Apptunix Technologies Pvt. Ltd. Mohali</p>
@@ -94,7 +110,8 @@ export default function ResumeContent() {
                                              <h3>Web Designer Intern</h3>
                                         </div>
                                         <div className="Education-Para Banner-Para">
-                                             <p>Duis posuere, quam non imperdiet egestas, eros enim mattis mauris, in posuere lacus arcu quis felis. Etiam interdum erat non enim venenatis fermentum.</p>
+                                             <p>As an intern, I actively participated in front-end web development, refining my
+                                                  skills in Aug 2023 - Dec 2023 HTML, CSS, and Bootstrap.</p>
                                         </div>
                                    </div>
                               </div>

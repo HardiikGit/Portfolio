@@ -66,7 +66,7 @@ export default function Skills() {
                                         <div className="Skill-6">
                                              <div className="Skill-name d-flex align-items-center justify-space-between">
                                                   <h3>React Js</h3>
-                                                  <p>65%</p>
+                                                  <p>45%</p>
                                              </div>
                                              <div className="Percenteage-box">
                                                   <div className="skill-Percentage"></div>
