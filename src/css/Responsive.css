@@ -107,7 +107,8 @@
   .ChatBot-Ui,
   .SandBox-Ui,
   .Malika-Ui,
-  .Infusing-Ui {
+  .Infusing-Ui,
+  .One-Click-Ui-Figma {
     max-width: 100% !important;
   }
 }
