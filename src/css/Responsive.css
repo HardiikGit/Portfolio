@@ -73,6 +73,9 @@
   .Text-Area {
     width: 100% !important;
   }
+  .cursor-move {
+    display: none !important;
+  }
 }
 @media (max-width: 567px) {
   .navigation-bar {
