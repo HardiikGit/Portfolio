@@ -6,10 +6,7 @@ export default function BannerSection() {
      const DownloadResume = () => {
           const ConfirmDownload = window.confirm("Do you want Download Resume");
           if (ConfirmDownload) {
-               const link = document.createElement("a");
-               link.href = "public/Hardik_CV.pdf";
-               link.download = "Hardik_CV";
-               link.click();
+               window.open("https://drive.google.com/file/d/12izTo5zhoF2EfRdlX2M6OtsqDz4F7NvV/view")
           }
      };
      return (
