@@ -1,7 +1,7 @@
 import { TypeAnimation } from "react-type-animation"
 import "../css/Banner.css"
 import '../css/Animation.css'
-import BannerImage from "../images/MyImage.jpg"
+import BannerImage from "../images/Ai2.png"
 export default function BannerSection() {
      const DownloadResume = () => {
           window.open("https://drive.google.com/file/d/12izTo5zhoF2EfRdlX2M6OtsqDz4F7NvV/view")
